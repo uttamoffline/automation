@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uttam Singh - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+<div id="loading-screen">
+    <div class="loader">
+        <div class="loader-particles"></div>
+        <div class="loader-text">Loading Portfolio...</div>
+    </div>
+</div>
+
+<nav id="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">US</div>
+        <div class="nav-menu">
+            <a href="#hero" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-toggle">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</nav>
+
+<canvas id="bg-canvas"></canvas>
+
+<section id="hero" class="section hero-section">
+    <div class="hero-content">
+        <h1 class="hero-title">
+            <span class="hero-name">Uttam Singh</span><span class="hero-cursor">_</span>
+        </h1>
+        <p class="hero-subtitle">Software Engineer</p>
+
+        <div class="hero-description">
+            <p>Building scalable software systems, AI evaluation pipelines, and developer platforms</p>
+            <p>Experience across backend systems, CI/CD infrastructure, and AI-powered products</p>
+        </div>
+
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number" data-target="4">0</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="30">0</span>
+                <span class="stat-label">Production Pipelines</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="15">0</span>
+                <span class="stat-label">Systems Shipped</span>
+            </div>
+        </div>
+
+        <button class="btn btn--primary cta-button" onclick="scrollToSection('about')">
+            Explore My Work
+            <span class="btn-glow"></span>
+        </button>
+    </div>
+</section>
+
+<section id="about" class="section about-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Software engineer with a strong systems and AI foundation</p>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I’m a Software Engineer with experience building scalable backend systems, CI/CD infrastructure,
+                    and evaluation platforms for AI-driven products. My work spans system automation, data pipelines,
+                    AI model validation, and developer tooling.
+                </p>
+                <p>
+                    At Wing AI, I worked on LLM evaluation infrastructure, building automated scoring frameworks,
+                    regression tracking, and CI-integrated reporting systems for AI model quality.
+                    Previously at Bobble AI, I built large-scale automation and benchmarking systems that powered
+                    reliable releases across multiple consumer products.
+                </p>
+
+                <div class="achievements-highlight">
+                    <div class="achievement-item">
+                        <h4>AI Systems Engineering</h4>
+                        <p>Designed LLM-as-a-Judge pipelines and AI quality evaluation frameworks</p>
+                    </div>
+                    <div class="achievement-item">
+                        <h4>Scalable Platforms</h4>
+                        <p>Built and maintained 30+ containerized CI/CD and backend systems</p>
+                    </div>
+                    <div class="achievement-item">
+                        <h4>Research & Discovery</h4>
+                        <p>Confirmed discovery of asteroid 2019-MR8 under NASA monitoring</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section skills-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Technologies I use to build reliable software systems</p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="95">Python</div>
+                    <div class="skill-item" data-skill="90">Java</div>
+                    <div class="skill-item" data-skill="85">JavaScript</div>
+                    <div class="skill-item" data-skill="88">SQL</div>
+                    <div class="skill-item" data-skill="80">Bash</div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>AI / ML</h3>
+                <div class="skill-items">
+                    <div class="skill-item">LLM Evaluation</div>
+                    <div class="skill-item">Prompt Testing</div>
+                    <div class="skill-item">NLP</div>
+                    <div class="skill-item">PCA</div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Backend & Infra</h3>
+                <div class="skill-items">
+                    <div class="skill-item">REST APIs</div>
+                    <div class="skill-item">Docker</div>
+                    <div class="skill-item">Kubernetes</div>
+                    <div class="skill-item">PostgreSQL</div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>DevOps</h3>
+                <div class="skill-items">
+                    <div class="skill-item">Jenkins</div>
+                    <div class="skill-item">GitHub Actions</div>
+                    <div class="skill-item">Linux</div>
+                    <div class="skill-item">CI/CD</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="section experience-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Experience</h2>
+            <p class="section-subtitle">Building software systems across AI and consumer platforms</p>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Software Engineer</h3>
+                    <div class="timeline-company">Wing AI • Remote</div>
+                    <div class="timeline-duration">Sep 2025 – Dec 2025</div>
+                    <ul>
+                        <li>Designed LLM-as-a-Judge frameworks for evaluating AI model responses</li>
+                        <li>Built CI/CD workflows using GitHub Actions and Jenkins</li>
+                        <li>Implemented regression tracking and automated reporting for AI systems</li>
+                        <li>Performed system-level validation across multiple AI-powered products</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Software Engineer</h3>
+                    <div class="timeline-company">Bobble AI • Gurgaon</div>
+                    <div class="timeline-duration">Dec 2021 – Aug 2025</div>
+                    <ul>
+                        <li>Built 30+ containerized CI/CD and backend automation systems</li>
+                        <li>Developed scalable benchmarking and monitoring platforms</li>
+                        <li>Implemented self-healing automation and data-driven quality metrics</li>
+                        <li>Optimized build pipelines, reducing execution time by 30%</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section projects-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Engineering systems with real-world impact</p>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>Backend Testing Framework for Microservices</h3>
+
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">REST APIs</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">CI/CD</span>
+                </div>
+
+                <p class="project-description">
+                    Designed and implemented a scalable backend framework for validating
+                    microservices, including API correctness, database integrity, and
+                    performance characteristics. Seamlessly integrated into CI/CD pipelines
+                    to ensure reliable and repeatable releases.
+                </p>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>Scalable CI/CD Platform</h3>
+
+                <div class="project-tech">
+                    <span class="tech-tag">Jenkins</span>
+                    <span class="tech-tag">Kubernetes</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Next.js</span>
+                </div>
+
+                <p class="project-description">
+                    Orchestrated 30+ containerized CI/CD pipelines with structured JSON outputs,
+                    automated benchmarking, and real-time dashboards. Enabled faster releases,
+                    improved system observability, and consistent quality metrics across teams.
+                </p>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3>Korean Transliteration Language Model</h3>
+
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">NLP</span>
+                    <span class="tech-tag">Machine Learning</span>
+                    <span class="tech-tag">Text Processing</span>
+                </div>
+
+                <p class="project-description">
+                    Built an NLP-based transliteration system for Korean learners that converts
+                    Hangul into readable English representations using linguistic rules such as
+                    consonant assimilation, double consonants, and structured hyphenation.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="section contact-section">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p>Email: <a href="mailto:uttam6201@gmail.com">uttam6201@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/uttamoffline">github.com/uttamoffline</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/uttambeingprofessional">uttambeingprofessional</a></p>
+    </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
