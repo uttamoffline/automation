@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 630" fill="none">
+  <rect width="840" height="630" fill="#0a0a0a"/>
+  <circle cx="420" cy="300" r="150" fill="none" stroke="#333" stroke-width="1"/>
+  <circle cx="420" cy="300" r="100" fill="none" stroke="#444" stroke-width="1"/>
+  <circle cx="420" cy="300" r="50" fill="none" stroke="#555" stroke-width="1"/>
+  <circle cx="420" cy="300" r="8" fill="#fff"/>
+  <circle cx="520" cy="250" r="6" fill="#818cf8"/>
+  <circle cx="350" cy="220" r="6" fill="#818cf8"/>
+  <circle cx="480" cy="380" r="6" fill="#818cf8"/>
+  <line x1="420" y1="300" x2="520" y2="250" stroke="#333"/>
+  <line x1="420" y1="300" x2="350" y2="220" stroke="#333"/>
+  <line x1="420" y1="300" x2="480" y2="380" stroke="#333"/>
+  <text x="420" y="560" text-anchor="middle" fill="#666" font-family="system-ui" font-size="14">PCA Research</text>
+</svg>

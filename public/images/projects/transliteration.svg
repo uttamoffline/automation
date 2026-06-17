@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 630" fill="none">
+  <rect width="840" height="630" fill="#0a0a0a"/>
+  <rect x="200" y="120" width="440" height="360" rx="24" fill="#111" stroke="#333" stroke-width="2"/>
+  <text x="420" y="280" text-anchor="middle" fill="#fff" font-family="system-ui" font-size="48" font-weight="300">한글</text>
+  <text x="420" y="340" text-anchor="middle" fill="#888" font-family="monospace" font-size="20">han-geul</text>
+  <rect x="260" y="380" width="320" height="60" rx="8" fill="#1a1a1a" stroke="#444"/>
+  <text x="420" y="560" text-anchor="middle" fill="#666" font-family="system-ui" font-size="14">Korean Transliteration</text>
+</svg>

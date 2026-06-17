@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 630" fill="none">
+  <rect width="840" height="630" fill="#0a0a0a"/>
+  <rect x="120" y="100" width="600" height="400" rx="12" fill="#111" stroke="#222"/>
+  <rect x="160" y="150" width="520" height="80" rx="8" fill="#1a1a1a"/>
+  <rect x="180" y="175" width="200" height="10" rx="2" fill="#a78bfa" opacity="0.7"/>
+  <rect x="160" y="260" width="240" height="200" rx="8" fill="#1a1a1a" stroke="#333"/>
+  <rect x="420" y="260" width="260" height="200" rx="8" fill="#1a1a1a" stroke="#333"/>
+  <rect x="180" y="290" width="80" height="60" rx="4" fill="#22c55e" opacity="0.3"/>
+  <rect x="280" y="290" width="80" height="60" rx="4" fill="#ef4444" opacity="0.3"/>
+  <rect x="440" y="290" width="220" height="8" rx="2" fill="#a78bfa" opacity="0.5"/>
+  <text x="420" y="560" text-anchor="middle" fill="#666" font-family="system-ui" font-size="14">LLM-as-a-Judge</text>
+</svg>

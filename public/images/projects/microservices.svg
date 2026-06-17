@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 630" fill="none">
+  <rect width="840" height="630" fill="#0a0a0a"/>
+  <rect x="100" y="80" width="640" height="440" rx="12" fill="#111" stroke="#222"/>
+  <rect x="140" y="130" width="160" height="340" rx="6" fill="#1a1a1a" stroke="#333"/>
+  <rect x="320" y="130" width="400" height="160" rx="6" fill="#1a1a1a" stroke="#333"/>
+  <rect x="320" y="310" width="400" height="160" rx="6" fill="#1a1a1a" stroke="#333"/>
+  <rect x="160" y="160" width="120" height="8" rx="2" fill="#f97316" opacity="0.6"/>
+  <rect x="340" y="160" width="200" height="10" rx="2" fill="#f97316" opacity="0.4"/>
+  <text x="420" y="560" text-anchor="middle" fill="#666" font-family="system-ui" font-size="14">Microservices Testing</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 630" fill="none">
+  <rect width="840" height="630" fill="#0a0a0a"/>
+  <rect x="150" y="100" width="200" height="380" rx="16" fill="#111" stroke="#333"/>
+  <rect x="320" y="140" width="200" height="340" rx="16" fill="#111" stroke="#333"/>
+  <rect x="490" y="180" width="200" height="300" rx="16" fill="#111" stroke="#333"/>
+  <circle cx="250" cy="200" r="20" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="420" cy="220" r="20" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="590" cy="240" r="20" fill="#38bdf8" opacity="0.5"/>
+  <rect x="180" y="260" width="140" height="6" rx="2" fill="#333"/>
+  <rect x="350" y="280" width="140" height="6" rx="2" fill="#333"/>
+  <rect x="520" y="300" width="140" height="6" rx="2" fill="#333"/>
+  <text x="420" y="560" text-anchor="middle" fill="#666" font-family="system-ui" font-size="14">AI Product Validation</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 630" fill="none">
+  <rect width="840" height="630" fill="#0a0a0a"/>
+  <rect x="120" y="80" width="600" height="470" rx="12" fill="#111" stroke="#222"/>
+  <rect x="160" y="130" width="200" height="24" rx="4" fill="#d4af37" opacity="0.8"/>
+  <rect x="160" y="180" width="520" height="12" rx="2" fill="#333"/>
+  <rect x="160" y="210" width="480" height="12" rx="2" fill="#333"/>
+  <rect x="160" y="260" width="520" height="200" rx="8" fill="#1a2332" stroke="#d4af37" stroke-opacity="0.3"/>
+  <rect x="180" y="290" width="160" height="10" rx="2" fill="#d4af37" opacity="0.5"/>
+  <rect x="180" y="320" width="460" height="8" rx="2" fill="#333"/>
+  <rect x="180" y="340" width="420" height="8" rx="2" fill="#333"/>
+  <rect x="180" y="360" width="380" height="8" rx="2" fill="#333"/>
+  <text x="420" y="560" text-anchor="middle" fill="#666" font-family="system-ui" font-size="14">Invoice Generator</text>
+</svg>
